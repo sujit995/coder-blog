@@ -1,0 +1,16 @@
+.category{
+    padding:1rem 1.5rem;
+  }
+
+.category .link{
+    padding:.4rem 0;
+    font-size: 1.5rem;
+    color:var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.category .link:hover{
+    color:var(--violet);
+  }

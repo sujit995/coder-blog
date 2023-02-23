@@ -1,0 +1,45 @@
+.recentPost{
+    margin-bottom: 2rem;
+}
+.recentPost .line{
+    margin-top: .7rem;
+    width: 50%;
+    height: 2px;
+    background-color: var(--violet);
+    border: 0 none;
+}
+.recentPostWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.recentPostImg{
+  height: 10rem;
+  width: 150px;
+  border-radius: .5rem;
+  object-fit: cover;
+}
+
+.recentImg{
+  display: flex;
+  flex-direction: row;  
+}
+
+.postDetails{
+    padding-left: 10px;
+}
+
+.posttitle{
+  font-size: 1.2rem;
+  color:var(--violet);
+}
+.postdate{
+  padding-top: .5rem;
+  font-size: 1.2rem;
+  color:var(--black);
+}
+.posttext{
+    padding-top: .5rem;
+    font-size: 1.2rem;
+    color:var(--light-color);
+}

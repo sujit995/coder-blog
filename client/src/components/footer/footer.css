@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color:#7227D5;;
+}
+
+.footer .credit{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer .credit span{
+    color:var(--black);
+}
+
+.footer .follow{
+    padding: 1rem 0;
+}
+
+.footer .follow a{
+    height:4.5rem;
+    line-height:4.5rem;
+    width:4.5rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background:var(--black);
+    color:#fff;
+    margin:0 .1rem;
+    text-align: center;
+}
+
+.footer .follow a:hover{
+    background:#fff;
+    color: var(--black)
+}
+
+@media screen and (max-width: 512px) {
+   .footer .credit{
+    font-size: 1.5rem;
+   }
+  }

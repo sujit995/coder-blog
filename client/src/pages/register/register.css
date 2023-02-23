@@ -1,0 +1,112 @@
+.logincardWrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.logincard{
+    width: 70vw;
+    height: 70vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+ .loginform,
+ .loginimage{
+    width: 50%;
+  }
+  
+  .loginimage{
+  background-size:cover;
+  background-position: center;
+  }
+  
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 39, 213, 0.31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .overlay h3{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .overlay p{
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  
+  .loginform{
+    background: #fff;
+    padding: 60px 25px; 
+    display: flex;
+    flex-direction: column;
+  }
+  .loginform h3{
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .loginform h3::after{
+    content: '';
+    width:40px;
+    height:3px;
+    background: #7227D5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+  }
+
+  .loginform>a{
+    color:#7227D5;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 35px
+  }
+  
+  .logincard button{
+    height: 45px;
+    background:#7227D5;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .logincard button+p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+  }
+  
+  .logincard button+p a{
+    text-decoration: none;
+    color:#7227D5;
+    font-weight: 500;
+  }
+  
+
+  @media (max-width: 950px) {
+    .loginform{
+        width: 100%;
+    }
+    .loginimage{
+        display: none;
+    }
+  }

@@ -1,0 +1,29 @@
+.container .blogLine{
+    margin-top: .5rem;
+    width: 20%;
+    height: 4px;
+    background-color: var(--violet);
+    border: 0 none;
+    margin-left: 20px;
+}
+
+.container .home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap:1rem;
+  margin: 50px;
+  justify-content: center;
+}
+.container .heading{
+  margin: 20px 0px 0px 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #605e5e
+}
+
+@media screen and (max-width: 1028px) {
+  .container .home {
+    display: flex;
+    flex-direction: column;
+  }
+}
